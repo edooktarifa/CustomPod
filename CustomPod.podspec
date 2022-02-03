@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'CustomPod'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of CustomPod.'
+  s.summary          = 'This project will add a done button on textfield'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                'this project will add a done button on your textfield, just import turn on the accessory'
                        DESC
 
   s.homepage         = 'https://github.com/edooktarifa/CustomPod'
@@ -28,9 +28,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/edooktarifa/CustomPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
 
-  s.source_files = 'CustomPod/Classes/**/*'
+  s.source_files = 'Classes/**/*'
   
   # s.resource_bundles = {
   #   'CustomPod' => ['CustomPod/Assets/*.png']
