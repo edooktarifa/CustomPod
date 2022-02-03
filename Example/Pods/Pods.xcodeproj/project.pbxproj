@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		05B0ECC34590C105C6A2CD698941BF5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		1D15B013110620E1AE94B8ABF27473E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		36FE5E5027AB89DD00C38F1D /* CustomKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FE5E4F27AB89DD00C38F1D /* CustomKeyboard.swift */; };
+		36FE5E9427ABCAD400C38F1D /* CustomKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FE5E9327ABCAD400C38F1D /* CustomKeyboard.swift */; };
 		60B8070C827C6C84CF47BAF9A9B85F6C /* Pods-CustomPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92ED7975477F6C53F6E1BFA13039CCC1 /* Pods-CustomPod_Example-dummy.m */; };
 		623D2F6F1F772375FAAF719D3487FC6F /* Pods-CustomPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9D9ACF29374BBEB1503CC952C4E7AB /* Pods-CustomPod_Tests-dummy.m */; };
 		897CDB4C483494ED519FEE32C57B19FD /* Pods-CustomPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9088D5601B4F395843D61D9C5862DB /* Pods-CustomPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -44,7 +44,7 @@
 		1D9D9ACF29374BBEB1503CC952C4E7AB /* Pods-CustomPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CustomPod_Tests-dummy.m"; sourceTree = "<group>"; };
 		1DDDBFCEA5646FD996BF419D9C7E34B0 /* CustomPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CustomPod-dummy.m"; sourceTree = "<group>"; };
 		2AA79EB8AB069EB3B1DA0C375F20A787 /* CustomPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CustomPod.debug.xcconfig; sourceTree = "<group>"; };
-		36FE5E4F27AB89DD00C38F1D /* CustomKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomKeyboard.swift; sourceTree = "<group>"; };
+		36FE5E9327ABCAD400C38F1D /* CustomKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomKeyboard.swift; path = ../CustomPod/Classes/CustomKeyboard.swift; sourceTree = "<group>"; };
 		3F3E0CC395FB4298C3647E7F52E94429 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		483AA980F6C27B19250579B9C6822AF8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		49E70CCC77469B68DC26D7DFAE7ADBE9 /* Pods-CustomPod_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CustomPod_Example-Info.plist"; sourceTree = "<group>"; };
@@ -115,10 +115,10 @@
 			path = "Example/Pods/Target Support Files/CustomPod";
 			sourceTree = "<group>";
 		};
-		36FE5E4E27AB890D00C38F1D /* Classes */ = {
+		36FE5E9227ABCAC500C38F1D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				36FE5E4F27AB89DD00C38F1D /* CustomKeyboard.swift */,
+				36FE5E9327ABCAD400C38F1D /* CustomKeyboard.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -135,7 +135,7 @@
 		428F13E7DF4C371ED67F34680622D7FB /* CustomPod */ = {
 			isa = PBXGroup;
 			children = (
-				36FE5E4E27AB890D00C38F1D /* Classes */,
+				36FE5E9227ABCAC500C38F1D /* Classes */,
 				A0DF8A3D31729D76683F21D789C8BF55 /* Pod */,
 				2BBD9907ADAE33246EA53247189DFF41 /* Support Files */,
 			);
@@ -381,7 +381,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFF215D906D015C28E59EB98E994D29D /* CustomPod-dummy.m in Sources */,
-				36FE5E5027AB89DD00C38F1D /* CustomKeyboard.swift in Sources */,
+				36FE5E9427ABCAD400C38F1D /* CustomKeyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
