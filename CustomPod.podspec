@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
                 'this project will add a done button on your textfield, just import turn on the accessory'
                        DESC
 
-  s.homepage         = 'https://github.com/edooktarifa/CustomPod'
+  s.homepage         = 'https://github.com/edooktarifa/customPod'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'edooktarifa' => 'edooktarifa99@gmail.com' }
-  s.source           = { :git => 'https://github.com/edooktarifa/CustomPod.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/edooktarifa/customPod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'Classes/**/*'
+  s.source_files = 'CustomPod/Classes/**/*'
   
   # s.resource_bundles = {
   #   'CustomPod' => ['CustomPod/Assets/*.png']
