@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '9.0'
 
 target 'CustomPod_Example' do
-  pod 'CustomPod', :path => '../'
+  pod 'CustomPod', :git => 'https://github.com/edooktarifa/customPod'
 
   target 'CustomPod_Tests' do
     inherit! :search_paths
