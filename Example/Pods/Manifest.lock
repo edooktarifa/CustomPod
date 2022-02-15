@@ -2,15 +2,20 @@ PODS:
   - CustomPod (0.1.0)
 
 DEPENDENCIES:
-  - CustomPod (from `../`)
+  - CustomPod (from `https://github.com/edooktarifa/customPod`)
 
 EXTERNAL SOURCES:
   CustomPod:
-    :path: "../"
+    :git: https://github.com/edooktarifa/customPod
+
+CHECKOUT OPTIONS:
+  CustomPod:
+    :commit: 9aba3767c930c55a8a7e424bcd3e32649cb01548
+    :git: https://github.com/edooktarifa/customPod
 
 SPEC CHECKSUMS:
-  CustomPod: 487636d60d508911937834cff1c24caf8c3f73a4
+  CustomPod: d3b8466383be4b27249851b9460d8f51e8c3865e
 
-PODFILE CHECKSUM: f58433aeb9d35ca5e471c32bd33f04c7e9d99611
+PODFILE CHECKSUM: feb4b4c7838f162db3443d51eec31f5e8cafb4ec
 
 COCOAPODS: 1.11.2
